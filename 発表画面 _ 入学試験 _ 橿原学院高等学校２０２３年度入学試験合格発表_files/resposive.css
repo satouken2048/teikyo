@@ -1,0 +1,132 @@
+body{
+/*meta viewportにinitial-scaleを入れるの忘れずに*/
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust:     100%;
+}
+
+#center {
+    max-width: 650px;
+	padding:0 10px;
+}
+
+body #center #header {
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+.header_b {
+    text-align: center;
+}
+
+.content {
+    margin:20px 0 0;
+}
+
+.leftcol{
+	font-size:90%;
+	text-align:left;
+	float:none;
+	width:100%;
+	border-right:none;
+	}
+.rightcol{
+	border-top:2px solid #fff;
+	padding:10px 0;
+	width:100%;
+	float:none;
+}
+.toprow,
+.bottomrow {
+    text-indent: 0;
+}
+.toprow span,
+.bottomrow span{
+	display:inline-block;
+}
+
+input[type="submit"]{
+	color: #000000;
+	-webkit-appearance: none;
+	padding:5px 0;
+	width:80%;
+font-size: 16px;
+    font-weight: normal;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border: 1px solid #999;
+    text-decoration: none;
+    background: -moz-linear-gradient( center top, #eee 5%, #ccc 100% );
+    background: -ms-linear-gradient( top, #eee 5%, #ccc 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eee', endColorstr='#ccc');
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(5%, #eee), color-stop(100%, #ccc) );
+    background-color: #eee;
+    text-shadow: 0px -1px 0px #fafafa;
+    -webkit-box-shadow: inset 1px 1px 0px 0px #fcfcfc;
+    -moz-box-shadow: inset 1px 1px 0px 0px #fcfcfc;
+    box-shadow: inset 1px 1px 0px 0px #fcfcfc;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+body .content h2 {
+    padding: 10px;
+}
+
+h3 .pass {
+    padding: 80px 0;
+    background: url('passSakura.png') right center no-repeat;
+	background-size:120% auto;
+	height:auto;
+}
+h3 .hoketu {
+    padding: 80px 0;
+    background:none;
+	height:auto;
+}
+
+
+h4 {
+	text-align:left;
+	margin:10px 0;
+	}
+
+.loginrow input {
+	padding:5px;
+	font-size:100%;
+}
+
+/**
+ * スマートフォン端末用
+**/
+@media only screen and (max-width: 650px) {
+#center {
+    max-width: 100%;
+}
+.access{
+	text-align:left;
+}
+
+.loginarea {
+    text-align: left;
+}
+.loginrow input {
+	display:block;
+	margin:5px 0;
+	width:100%;
+	padding:10px 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size:100%;
+
+}
+
+h3 .pass {
+    padding: 50px 0;
+}
+
+}
